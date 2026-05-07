@@ -1,5 +1,72 @@
 /* block specific CSS goes here */
+/* block specific CSS goes here */
 
+main .hero-container > div {
+    max-width: unset;
+}
+  
+main .hero-container {
+    padding: 0;
+}
+  
+main .hero {
+    position: relative;
+    padding: 32px;
+    min-height: 612px;
+    color: var(--background-color);
+}
+
+main .hero .hero-body {
+    max-width: 550px;
+    margin-left: 15%;
+	margin-top:5%;
+    margin-right: auto;
+    position: relative;
+    z-index: 1;
+}
+
+main .hero .hero-body h1{
+	text-align: left;
+	font-size: 48px !important;
+	line-height: 57px !important;
+	font-family: Roboto400,sans-serif !important;
+	letter-spacing: normal !important;
+	text-transform: none !important;
+	font-weight: 200 !important;
+	opacity: .95;
+}
+
+main .hero .hero-body h2{
+	color: #06bed5;
+}
+
+main .hero .hero-body p{
+	text-align: left;
+font-size: 1.4375rem;
+line-height: 2.1875rem;
+	opacity: .95;
+}
+
+
+main .hero picture {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    box-sizing: border-box;
+}
+
+main .hero img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.hero [data-align="center"] {
+    text-align: center;
+}
+/*
 main .hero-container > div {
     max-width: unset;
 }
@@ -41,4 +108,4 @@ main .hero img {
 
 .hero [data-align="center"] {
     text-align: center;
-}
+} */
