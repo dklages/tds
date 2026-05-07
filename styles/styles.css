@@ -18,7 +18,7 @@
   --background-color: #fff;
   --overlay-background-color: #eee;
   --highlight-background-color: #ccc;
-  --text-color: #202020;
+  --text-color: #005758;
   --text-color-light: #ebebeb;
   --heading-highlight-color: #ffea00;
   --overlay-text-color: var(--text-color);
@@ -148,7 +148,8 @@ body.article h2::after {
 }
 
 h2 { font-size: var(--heading-font-size-xl) }
-h3 { font-size: var(--heading-font-size-l) }
+h3 { font-size: var(--heading-font-size-l);
+	text-align: center;}
 h4 { font-size: var(--heading-font-size-m) }
 h5 { font-size: var(--heading-font-size-s) }
 h6 { font-size: var(--heading-font-size-xs) }
@@ -213,6 +214,11 @@ border-bottom: 1px solid #d8d8d8;
 
 .blue-background{
 	background: linear-gradient(0.25turn,#d3e5ed, #f0ebe7);
+}
+
+.tds img{
+	max-width: 151px;
+	padding-left: 25%;
 }
 
 .deloitte{

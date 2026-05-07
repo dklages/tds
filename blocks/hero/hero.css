@@ -38,6 +38,7 @@ main .hero .hero-body h1{
 
 main .hero .hero-body h2{
 	color: #06bed5;
+	text-align: left;
 }
 
 main .hero .hero-body p{
@@ -45,6 +46,7 @@ main .hero .hero-body p{
 font-size: 1.4375rem;
 line-height: 2.1875rem;
 	opacity: .95;
+		color: #06bed5;
 }
 
 
