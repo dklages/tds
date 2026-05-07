@@ -14,17 +14,18 @@
 
 .cards .cards-card-body {
     margin: 16px;
+	font-size: 18px;
 }
 
 .cards .cards-card-image {
     line-height: 0;
 }
 
-/*
+
 .cards .cards-card-body > *:first-child {
     margin-top: 0;
 }
-*/
+
 
 .cards > ul > li img {
     width: 100%;
